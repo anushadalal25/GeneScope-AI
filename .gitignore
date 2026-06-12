@@ -1,0 +1,23 @@
+# Large data files — downloaded at runtime
+*.gz
+*.csv
+*.fa
+*.fasta
+
+# Model weights — too large for GitHub
+*.keras
+*.h5
+*.pkl
+
+# Output directory
+output/
+
+# Colab/Jupyter artifacts
+*.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
